@@ -1,21 +1,16 @@
-# Security Policy
+# Security
 
-## Supported Versions
+Tweakr interacts with Windows registry keys (`HKCU` and `HKLM`) and runs system commands like `powercfg` to apply performance changes. 
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Because the app runs with administrative privileges, keeping IPC communication safe and preventing arbitrary command execution is a priority.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+## Reporting an Issue
 
-## Reporting a Vulnerability
+If you find a security flaw or an issue with how system commands are executed:
 
-Use this section to tell people how to report a vulnerability.
+1. **Please do not open a public issue.**
+2. Report it privately through GitHub's [Security Advisory tab](https://github.com/AkaDraxx/tweakr/security/advisories/new).
+3. Alternatively, you can reach out directly on Discord by joining the server: https://discord.gg/5WnRH2ff78
+4. Include the steps to reproduce the bug and the version you are testing.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+I'll review the report, push a patch, and credit you in the release notes.
