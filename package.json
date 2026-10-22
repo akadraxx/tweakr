@@ -24,7 +24,7 @@
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.2",
     "autoprefixer": "^10.6.1",
-    "electron": "^30.0.0",
+    "electron": "^45.0.0",
     "electron-builder": "^24.13.3",
     "electron-vite": "^6.0.0",
     "javascript-obfuscator": "^4.1.0",
