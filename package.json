@@ -45,10 +45,15 @@
     ],
     "win": {
       "target": [
-        "nsis",
-        "zip"
+        "portable",
+        "nsis"
       ],
-      "requestedExecutionLevel": "requireAdministrator"
+      "requestedExecutionLevel": "requireAdministrator",
+      "icon": "build/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
     }
   }
 }
